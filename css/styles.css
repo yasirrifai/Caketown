@@ -1,0 +1,180 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+  color: grey;
+}
+
+.big-heading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.coloured-section {
+  background-color: #FF6363;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding-left: 0;
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  ;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.contact-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title {
+
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 12% 7%;
+}
+
+.title-image {
+  width: 30%;
+  border-radius: 5%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+.image{
+  width: 40px;
+  height: 40px;
+  border-radius: 25%
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+.feauture-title{
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #FFA1A1;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF6363
+}
+
+/* customer-feedback */
+#testimonials {
+  background-color: #FFA1A1;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feedback-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px
+}
+
+/* ingredients */
+#ingredients {
+  background-color: #FFA1A1;
+  padding-bottom: 3%;
+}
+
+.ingredients-image {
+  width: 15%;
+  padding: 20px 20px 50px;
+  border-radius: 10%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* contact */
+#cta {
+  background-color: #FFA1A1;
+}
+
+.contact-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.contact {
+  padding: 2% 10%;
+}
+
+.social-icon {
+  margin: 4px
+}
+
+@media (max-width: 1025px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 30%;
+    transform: rotate(0);
+    padding-top: 5%;
+  }
+}
